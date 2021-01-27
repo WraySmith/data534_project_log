@@ -1,0 +1,33 @@
+# 2020-01-25 {#jan25}
+
+Meeting with team to discuss selection of project and determine high-level timeline.
+
+Results of discussion are as follows:
+
+- Project selected: API wrapper for the Vehicle Recalls Database API from Government Canada: https://tc.api.canada.ca/en/detail?api=VRDB
+
+- Step 1 (target by Wed Jan 27th):
+    - email professor with project proposal (Mitch)
+    - setup group reposoritory (Nate)
+    - add stock documents including code of conduct and contributions (Ryan)
+    - read background documents
+        - http://httr.r-lib.org/articles/api-packages.html (step 1)
+        - http://usethis.r-lib.org/
+        - potentially: http://r-pkgs.had.co.nz/
+
+- Step 2 (target by Sat Feb 6th):
+    - github actions (Ryan will initialize)
+    - write package (Mitch to kick-off code)
+    - setup R package with usethis (Nate to figure this out)
+    - General comment is that unit testing will be written during and not after completion of code
+
+- Step 3 (Fri Feb 12th):
+    - Write vignette(s)
+    - Write user documentation (in code documentation to be written during Step 2)
+    - Final package clean-up
+    
+- Step 4 (Sun Feb 14th):
+    - open source the project if within timeline
+    
+**Items Completed:**
+- Initial group repository setup: https://github.com/WraySmith/caRecall/commit/12e5f165f673d9f29873fd461020b4d3da5ebc8c
