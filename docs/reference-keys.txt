@@ -1,14 +1,8 @@
-fig:nice-fig
-tab:nice-tab
-prerequisites
-intro
-literature
+details
+jan25
+jan26
 methods
 applications
 example-one
 example-two
 final-words
-description
-jan25
-details
-jan26
