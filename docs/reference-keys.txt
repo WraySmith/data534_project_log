@@ -1,7 +1,7 @@
 details
 jan25
 jan26
-methods
+jan27
 applications
 example-one
 example-two

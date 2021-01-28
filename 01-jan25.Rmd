@@ -11,9 +11,9 @@ Results of discussion are as follows:
     - setup group reposoritory (Nate)
     - add stock documents including code of conduct and contributions (Ryan)
     - read background documents
-        - http://httr.r-lib.org/articles/api-packages.html (step 1)
+        - http://httr.r-lib.org/articles/api-packages.html
         - http://usethis.r-lib.org/
-        - potentially: http://r-pkgs.had.co.nz/
+        - http://r-pkgs.had.co.nz/
 
 - Step 2 (target by Sat Feb 6th):
     - github actions (Ryan will initialize)
@@ -30,4 +30,5 @@ Results of discussion are as follows:
     - open source the project if within timeline
     
 **Items Completed:**
+
 - Initial group repository setup: https://github.com/WraySmith/caRecall/commit/12e5f165f673d9f29873fd461020b4d3da5ebc8c

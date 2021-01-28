@@ -1,0 +1,8 @@
+# 2020-01-27 {#jan27}
+
+**Items Completed:**
+
+- Read background documents.
+- Created a branch and Setup R package using the `devtools` package following the guide in the R Packages book. The package currently just contains placeholders using the R file `rangeyear.R`. The tests and man directories were also setup and corresponding test and document placeholder files for `rangeyear.R` were created.
+    - https://github.com/WraySmith/caRecall/commit/f62f33a2719fa46f67cb638c4f7475ee02a47c0d
+    - https://github.com/WraySmith/caRecall/commit/0e82bfd62eaf41cd08da42f24b11999a90b47768

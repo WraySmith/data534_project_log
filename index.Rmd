@@ -1,5 +1,5 @@
 --- 
-title: "Data 534 Daily Project Logs"
+title: "Data 534 Project Daily Logs"
 author: "Nathan Smith"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -9,8 +9,7 @@ bibliography:
 - packages.bib
 biblio-style: apalike
 link-citations: yes
-description: Data 534 daily project log for Nathan Smith The output format for this
-  example is bookdown::gitbook.
+description: Data 534 Project daily logs for Nathan Smith
 ---
 
 # Details
