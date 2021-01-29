@@ -2,7 +2,5 @@ details
 jan25
 jan26
 jan27
-applications
-example-one
-example-two
+jan28
 final-words

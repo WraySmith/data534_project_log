@@ -1,0 +1,20 @@
+# 2020-01-28 {#jan28}
+
+Meeting with Mitch Harris and Ryan Koenig to discuss moving on Step 2 of the project which includes:
+
+- setup github actions - this will be done after figuring out how best to deal with the API secrets as discussed in the httr article: https://httr.r-lib.org/articles/secrets.html
+- write package functions
+- continue to setup R package with usethis
+- General comment is that unit testing will be written during and not after completion of code
+
+The action plan includes the following
+
+- Mitch and Ryan to finish reading the httr and R Packages documentation
+- Ryan will start working on the first function for the package (will create a branch from the setup_package branch) and will follow the R Package workflow - first function(s) to be complete by Sunday Jan 31  
+- Mitch will start working on how to implement the API keys following the httr article - to be figured out/implemented by Sunday Jan 31
+- Nate to continue reading R Packages with the focus on the detailed chapters and continue to update the package framework, will also support Ryan/Mitch as required on the above stuff
+- Finish the package functions by Saturday Feb 6th and ready to move into Step 3
+
+**Items Completed:**
+
+- Gave Mitch and Ryan an overview of the package framework on the setup_package branch and gave a brief run through of the workflow.
