@@ -1,0 +1,12 @@
+# 2020-01-30 {#jan30}
+
+Mitch merged in the secrets working branch and Ryan started another branch on functionality.
+
+**Items Completed:**
+
+Completed PR review for the secrets branch and provided comments (https://github.com/WraySmith/caRecall/pull/1). Review was completed in conjunction with reviewing httr example documentation and relevant section of the R Packages book. General comments included:
+
+- update naming conventions of calling functions from packages
+- update variable names to be more verbose
+- API function call example should follow the httr style closer (this will be added asa todo list item and not done within this branch)
+- update API helper functions to follow httr example more closely

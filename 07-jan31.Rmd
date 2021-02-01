@@ -1,0 +1,23 @@
+# 2020-01-31 {#jan31}
+
+Ryan submitted a PR (https://github.com/WraySmith/caRecall/pull/4) on the first API call user functions `get_recall_manu()` and `get_recall_num()`. Mitch and Nate provided comments and the PR was merged in.
+
+Nate started a new branch on minor functional changes (see details below) required before meeting with the team on Monday Feb 1 .
+
+**Items Completed:**
+
+Completed PR review and provided comments (https://github.com/WraySmith/caRecall/pull/4). Review was completed in conjunction with reviewing httr example documentation and relevant section of the R Packages book. General comments included:
+
+- update naming conventions of calling functions from packages
+- moving the API call to a helper function within `utils.R`
+- many minor fixes
+- update API helper functions to follow httr example more closely
+- discussion on several outstanding items including, the returned class from `get_vrd_API()`, the output from the user functions, and setting a user agent
+
+Created a new branch `dev-general` to deal with some of the outstanding issues noted in the above PR including:
+
+- returning a dataframe from the user functions `get_recall_manu()` and `get_recall_num()`
+- setting the user agent
+- fixing the `vrd_API` class print function
+
+https://github.com/WraySmith/caRecall/commit/4cd2e5ec116f5ae713755f14e36d5196f91288d8

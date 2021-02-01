@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Data 534 Project Daily Logs</title>
+  <title>8 2020-01-31 | Data 534 Project Daily Logs</title>
   <meta name="description" content="Data 534 Project daily logs for Nathan Smith" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Data 534 Project Daily Logs" />
+  <meta property="og:title" content="8 2020-01-31 | Data 534 Project Daily Logs" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Data 534 Project Daily Logs" />
+  <meta name="twitter:title" content="8 2020-01-31 | Data 534 Project Daily Logs" />
   
   <meta name="twitter:description" content="Data 534 Project daily logs for Nathan Smith" />
   
@@ -24,15 +24,15 @@
 <meta name="author" content="Nathan Smith" />
 
 
-<meta name="date" content="2021-01-30" />
+<meta name="date" content="2021-02-01" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
+<link rel="prev" href="jan30.html"/>
 
-<link rel="next" href="jan25.html"/>
 <script src="libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -77,6 +77,7 @@
 <li class="chapter" data-level="5" data-path="jan28.html"><a href="jan28.html"><i class="fa fa-check"></i><b>5</b> 2020-01-28</a></li>
 <li class="chapter" data-level="6" data-path="jan29.html"><a href="jan29.html"><i class="fa fa-check"></i><b>6</b> 2020-01-29</a></li>
 <li class="chapter" data-level="7" data-path="jan30.html"><a href="jan30.html"><i class="fa fa-check"></i><b>7</b> 2020-01-30</a></li>
+<li class="chapter" data-level="8" data-path="jan31.html"><a href="jan31.html"><i class="fa fa-check"></i><b>8</b> 2020-01-31</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -97,20 +98,26 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Data 534 Project Daily Logs</h1>
-<p class="author"><em>Nathan Smith</em></p>
-<p class="date"><em>2021-01-30</em></p>
-</div>
-<div id="details" class="section level1" number="1">
-<h1><span class="header-section-number">1</span> Details</h1>
+<div id="jan31" class="section level1" number="8">
+<h1><span class="header-section-number">8</span> 2020-01-31</h1>
+<p>Ryan submitted a PR (<a href="https://github.com/WraySmith/caRecall/pull/4" class="uri">https://github.com/WraySmith/caRecall/pull/4</a>) on the first API call user functions <code>get_recall_manu()</code> and <code>get_recall_num()</code>. Mitch and Nate provided comments and the PR was merged in.</p>
+<p>Nate started a new branch on minor functional changes (see details below) required before meeting with the team on Monday Feb 1 .</p>
+<p><strong>Items Completed:</strong></p>
+<p>Completed PR review and provided comments (<a href="https://github.com/WraySmith/caRecall/pull/4" class="uri">https://github.com/WraySmith/caRecall/pull/4</a>). Review was completed in conjunction with reviewing httr example documentation and relevant section of the R Packages book. General comments included:</p>
 <ul>
-<li>Group: Nathan Smith, Mitch Harris, Ryan Koenig</li>
-<li>Project: caRecall R package</li>
-<li>Description: API wrapper for the <a href="https://tc.api.canada.ca/en/detail?api=VRDB">Vehicle Recalls Database API from Government Canada</a>.</li>
-<li>Project repository: <a href="https://github.com/WraySmith/caRecall" class="uri">https://github.com/WraySmith/caRecall</a></li>
-<li>Nathan Smith daily log files repository: <a href="https://github.com/WraySmith/data534_project_log" class="uri">https://github.com/WraySmith/data534_project_log</a></li>
+<li>update naming conventions of calling functions from packages</li>
+<li>moving the API call to a helper function within <code>utils.R</code></li>
+<li>many minor fixes</li>
+<li>update API helper functions to follow httr example more closely</li>
+<li>discussion on several outstanding items including, the returned class from <code>get_vrd_API()</code>, the output from the user functions, and setting a user agent</li>
 </ul>
+<p>Created a new branch <code>dev-general</code> to deal with some of the outstanding issues noted in the above PR including:</p>
+<ul>
+<li>returning a dataframe from the user functions <code>get_recall_manu()</code> and <code>get_recall_num()</code></li>
+<li>setting the user agent</li>
+<li>fixing the <code>vrd_API</code> class print function</li>
+</ul>
+<p><a href="https://github.com/WraySmith/caRecall/commit/4cd2e5ec116f5ae713755f14e36d5196f91288d8" class="uri">https://github.com/WraySmith/caRecall/commit/4cd2e5ec116f5ae713755f14e36d5196f91288d8</a></p>
 
 </div>
             </section>
@@ -118,8 +125,8 @@
           </div>
         </div>
       </div>
+<a href="jan30.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
-<a href="jan25.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
