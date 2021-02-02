@@ -1,0 +1,30 @@
+# 2020-02-01 {#feb01}
+
+**General:**
+
+Continued work on the `dev-general` branch and submitted and merged PR for the branch.
+
+Met with Mitch and Ryan to discuss next steps. Github Issues were created for the next steps including the following:
+
+- Add additional API call functions: https://github.com/WraySmith/caRecall/issues/6 (assigned to Nate)
+- Dataframe output formatting: https://github.com/WraySmith/caRecall/issues/7 (assigned to Ryan)
+- Testing and Setup CI/CD: https://github.com/WraySmith/caRecall/issues/8 (assigned to Mitch)
+
+The plan is for these items to be complete with PRs submitted EOD Thurs Feb 4th. The rest of the package excluding documentation/vignettes (considered as Step 3 of the timeline) is planned for completion by EOD Sat Feb 6th. An additional Github Issue was also created for features that may or may not be included in package development depending on time: https://github.com/WraySmith/caRecall/issues/9
+
+New branch `dev-add-funcs` was created and merged which dealt with most of the functionality for the additional API call functions.
+
+**Nate Completed:**
+
+Completed work on the `dev-general` branch and submitted and merged the PR: https://github.com/WraySmith/caRecall/pull/5. Additional functionality in the branch included:
+
+- allow a user to provide a limit argument
+- add a user agent in the header for the repository
+- minor typos
+
+Created the `dev-add-funcs` branch and submitted and merged PR for the branch: https://github.com/WraySmith/caRecall/pull/5. Functionality added included resolving the issues in Github Issues #6:
+
+- add API functions that return the number of recalls related to the call
+- looked into pagination and limits; however, the API appears to allow any limit and does not use pagination; therefore, set the API default of 25 for a limit and allow a user to input a different value
+- added additional API function calls for model, year range, and detailed recall information
+- modified .R file structure

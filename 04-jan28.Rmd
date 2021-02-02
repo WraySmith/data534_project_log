@@ -1,5 +1,7 @@
 # 2020-01-28 {#jan28}
 
+**General:**
+
 Meeting with Mitch Harris and Ryan Koenig to discuss moving on Step 2 of the project which includes:
 
 - setup github actions - this will be done after figuring out how best to deal with the API secrets as discussed in the httr article: https://httr.r-lib.org/articles/secrets.html

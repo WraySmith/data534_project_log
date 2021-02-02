@@ -1,8 +1,10 @@
 # 2020-01-30 {#jan30}
 
+**General:**
+
 Mitch merged in the secrets working branch and Ryan started another branch on functionality.
 
-**Items Completed:**
+**Nate Completed:**
 
 Completed PR review for the secrets branch and provided comments (https://github.com/WraySmith/caRecall/pull/1). Review was completed in conjunction with reviewing httr example documentation and relevant section of the R Packages book. General comments included:
 

@@ -1,7 +1,9 @@
 # 2020-01-29 {#jan29}
 
+**General:**
+
 Mitch created a branch to setup initial functions on working with the API key and submitted a PR for revew: https://github.com/WraySmith/caRecall/pull/1 
 
-**Items Completed:**
+**Nate Completed:**
 
 Initial review of PR request will finish reviewing tomorrow morning.

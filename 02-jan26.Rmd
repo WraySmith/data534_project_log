@@ -1,5 +1,5 @@
 # 2020-01-26 {#jan26}
 
-**Items Completed:**
+**Nate Completed:**
 
 - Setup daily log repository and generated bookdown template: https://github.com/WraySmith/data534_project_log

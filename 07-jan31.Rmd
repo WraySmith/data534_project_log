@@ -1,10 +1,12 @@
 # 2020-01-31 {#jan31}
 
+**General:**
+
 Ryan submitted a PR (https://github.com/WraySmith/caRecall/pull/4) on the first API call user functions `get_recall_manu()` and `get_recall_num()`. Mitch and Nate provided comments and the PR was merged in.
 
-Nate started a new branch on minor functional changes (see details below) required before meeting with the team on Monday Feb 1 .
+Nate started a new branch on minor functional changes (see details below) required before meeting with the team on Monday Feb 1.
 
-**Items Completed:**
+**Nate Completed:**
 
 Completed PR review and provided comments (https://github.com/WraySmith/caRecall/pull/4). Review was completed in conjunction with reviewing httr example documentation and relevant section of the R Packages book. General comments included:
 

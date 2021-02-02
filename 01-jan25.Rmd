@@ -1,5 +1,7 @@
 # 2020-01-25 {#jan25}
 
+**General:**
+
 Meeting with team to discuss selection of project and determine high-level timeline.
 
 Results of discussion are as follows:
@@ -29,6 +31,6 @@ Results of discussion are as follows:
 - Step 4 (Sun Feb 14th):
     - open source the project if within timeline
     
-**Items Completed:**
+**Nate Completed:**
 
 - Initial group repository setup: https://github.com/WraySmith/caRecall/commit/12e5f165f673d9f29873fd461020b4d3da5ebc8c

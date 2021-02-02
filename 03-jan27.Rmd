@@ -1,6 +1,6 @@
 # 2020-01-27 {#jan27}
 
-**Items Completed:**
+**Nate Completed:**
 
 - Read background documents.
 - Created a branch and Setup R package using the `devtools` package following the guide in the R Packages book. The package currently just contains placeholders using the R file `rangeyear.R`. The tests and man directories were also setup and corresponding test and document placeholder files for `rangeyear.R` were created.
