@@ -1,0 +1,15 @@
+# 2020-02-04 {#feb04}
+
+**General**   
+Branch that Mitch was working for setting up CI/CD on had a PR and merged into `setup_package`.
+
+Branch on adding additional user functionality had a PR and was merged into `setup_package`.
+
+Branch adding code coverage and additional CI/CD testing had a PR.
+
+
+**Nate Completed:**  
+
+- Reviewed PR for initial CI/CD setup branch: https://github.com/WraySmith/caRecall/pull/11
+- Provided PR and merged in additional user functionality branch discussed in Issue #6: https://github.com/WraySmith/caRecall/pull/12
+- Created a new branch `update_CICD` and added additional CI/CD testing and code coverage and provided PR for branch: https://github.com/WraySmith/caRecall/pull/16

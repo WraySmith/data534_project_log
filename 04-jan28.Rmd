@@ -17,6 +17,6 @@ The action plan includes the following
 - Nate to continue reading R Packages with the focus on the detailed chapters and continue to update the package framework, will also support Ryan/Mitch as required on the above stuff
 - Finish the package functions by Saturday Feb 6th and ready to move into Step 3
 
-**Items Completed:**
+**Nate Completed:**
 
 - Gave Mitch and Ryan an overview of the package framework on the setup_package branch and gave a brief run through of the workflow.

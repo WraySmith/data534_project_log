@@ -1,0 +1,17 @@
+# 2020-02-03 {#feb03}
+
+**General**  
+Note that no work was completed on Feb 2.
+
+
+**Nate Completed:**  
+Started work on additional functionality that was added to Issue #6: https://github.com/WraySmith/caRecall/issues/6 including:
+
+- allow a user to pass in a year range to `recall_by_make()` or `recall_by_model()`
+- allow a user to pass in a list of make/model and have `recall_by_make()` or `recall_by_model()` output data related to the list of inputs
+- modify `recall_details()` to handle an input list of numbers that queries the API multiple times and returns a dataframe of the output
+
+Commits included:
+
+- https://github.com/WraySmith/caRecall/commit/05209bfec35133f11327895765e1c42f1a1effd4
+- https://github.com/WraySmith/caRecall/commit/64905bdee4d7159fa972c68b53c3d94dceb8971b

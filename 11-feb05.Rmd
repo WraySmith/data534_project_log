@@ -1,0 +1,10 @@
+# 2020-02-05 {#feb05}
+
+**General**  
+Working on merging in PR from Ryan's branch `dabase_dev` which adds the functionality related to Issue #7: https://github.com/WraySmith/caRecall/issues/7
+
+
+**Nate Completed:**  
+Merged in PR on additional CI/CD tests (more OS) and coverage: https://github.com/WraySmith/caRecall/pull/16
+
+Working with Ryan to merge in `dabase_dev`, having issues with rebasing the feature branch.
