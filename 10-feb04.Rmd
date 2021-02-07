@@ -1,6 +1,6 @@
 # 2020-02-04 {#feb04}
 
-**General**   
+**General:**   
 Branch that Mitch was working for setting up CI/CD on had a PR and merged into `setup_package`.
 
 Branch on adding additional user functionality had a PR and was merged into `setup_package`.

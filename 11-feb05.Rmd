@@ -1,7 +1,9 @@
 # 2020-02-05 {#feb05}
 
-**General**  
+**General:**  
 Working on merging in PR from Ryan's branch `dabase_dev` which adds the functionality related to Issue #7: https://github.com/WraySmith/caRecall/issues/7
+
+After `database_dev` was merged in, `setup_package` was merged into `main`.
 
 
 **Nate Completed:**  

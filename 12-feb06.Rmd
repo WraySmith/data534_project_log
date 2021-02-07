@@ -1,0 +1,12 @@
+# 2020-02-06 {#feb06}
+
+**General:**  
+Meeting with Ryan and Mitch to discuss getting the code up to speed with unit testing. The plan was for each of us to complete unit tests for one of the .R files as follows:
+
+- utils.R: Nate
+- recall_count.R: Ryan
+- recall_data.R: Mitch
+
+
+**Nate Completed:**  
+Created, PR and merged in branch `unittest-utils2` to main. 95% coverage acheived on utils.R
