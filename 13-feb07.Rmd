@@ -1,0 +1,10 @@
+# 2020-02-07 {#feb07}
+
+**General:**  
+Ryan and Mitch completed their PRs for the unit tests on `recall_count.R` and `recall_data.R`
+
+
+**Nate Completed:**  
+General discussion on the PRs.
+
+
