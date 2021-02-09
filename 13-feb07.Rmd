@@ -5,6 +5,8 @@ Ryan and Mitch completed their PRs for the unit tests on `recall_count.R` and `r
 
 
 **Nate Completed:**  
-General discussion on the PRs.
+General discussion on the PRs. 
+
+Due to API calls performed during unittests and multiple CICD actions performing 10 rounds of testing (4x different operating systems and a coverage run which all occur during both push and pull), the API calls was hitting the allowable limit. Started looking into solutions for reducing the number of CICD actions performed.
 
 

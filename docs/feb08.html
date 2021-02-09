@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>14 2020-02-07 | Data 534 Project Daily Logs</title>
+  <title>15 2020-02-08 | Data 534 Project Daily Logs</title>
   <meta name="description" content="Data 534 Project daily logs for Nathan Smith" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="14 2020-02-07 | Data 534 Project Daily Logs" />
+  <meta property="og:title" content="15 2020-02-08 | Data 534 Project Daily Logs" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="14 2020-02-07 | Data 534 Project Daily Logs" />
+  <meta name="twitter:title" content="15 2020-02-08 | Data 534 Project Daily Logs" />
   
   <meta name="twitter:description" content="Data 534 Project daily logs for Nathan Smith" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="feb06.html"/>
-<link rel="next" href="feb08.html"/>
+<link rel="prev" href="feb07.html"/>
+
 <script src="libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -105,13 +105,30 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="feb07" class="section level1" number="14">
-<h1><span class="header-section-number">14</span> 2020-02-07</h1>
+<div id="feb08" class="section level1" number="15">
+<h1><span class="header-section-number">15</span> 2020-02-08</h1>
 <p><strong>General:</strong><br />
-Ryan and Mitch completed their PRs for the unit tests on <code>recall_count.R</code> and <code>recall_data.R</code></p>
-<p><strong>Nate Completed:</strong><br />
-General discussion on the PRs.</p>
-<p>Due to API calls performed during unittests and multiple CICD actions performing 10 rounds of testing (4x different operating systems and a coverage run which all occur during both push and pull), the API calls was hitting the allowable limit. Started looking into solutions for reducing the number of CICD actions performed.</p>
+Team met to discuss next steps on splitting up documentation. Was decided to split as follows:</p>
+<ul>
+<li>Nate: Populate metadata files and start looking into ensuring that all files meet CRAN requirements.</li>
+<li>Mitch: Populate all roxygen documentation.</li>
+<li>Ryan: Create vignette and README</li>
+</ul>
+<p><strong>Nate Completed:</strong></p>
+<ul>
+<li>Created a new branch <code>update_CICD_workflow</code> and PR/merged in new workflow files to reduce the number of CICD actions performed <a href="https://github.com/WraySmith/caRecall/pull/32" class="uri">https://github.com/WraySmith/caRecall/pull/32</a>:
+<ul>
+<li>Action workflow to run R-CMD-Check on 4 different OS but is only triggered by a using through the Github Action UI</li>
+<li>Action workflow to run R-CMD-Check on both push and pull but only on MacOS and which also runs the coverage test</li>
+</ul></li>
+<li>Created a new branch <code>populate-metadata</code> and PR/merged in <a href="https://github.com/WraySmith/caRecall/pull/33" class="uri">https://github.com/WraySmith/caRecall/pull/33</a>. Includes:
+<ul>
+<li>updated DESCRIPTION file</li>
+<li>minor updates on multiple metadata files</li>
+<li>added NEWS.md and cran-comments.md</li>
+<li>also added ability for user to pass in an API key directly to a function</li>
+</ul></li>
+</ul>
 
 </div>
             </section>
@@ -119,8 +136,8 @@ General discussion on the PRs.</p>
           </div>
         </div>
       </div>
-<a href="feb06.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="feb08.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="feb07.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

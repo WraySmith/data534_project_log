@@ -1,16 +1,22 @@
-# 2020-02-06 {#feb06}
+# 2020-02-08 {#feb08}
 
 **General:**  
-Meeting with Ryan and Mitch to discuss getting the code up to speed with unit testing. The plan was for each of us to complete unit tests for one of the .R files as follows:
+Team met to discuss next steps on splitting up documentation. Was decided to split as follows:
 
-- utils.R: Nate
-- recall_count.R: Ryan
-- recall_data.R: Mitch
-
+- Nate: Populate metadata files and start looking into ensuring that all files meet CRAN requirements.
+- Mitch: Populate all roxygen documentation.
+- Ryan: Create vignette and README
 
 **Nate Completed:**  
-Created, PR and merged in branch `unittest-utils2` to main. 95% coverage acheived on utils.R
 
-Reviewed and commented on the PR for the `test-for-recall-data` branch: https://github.com/WraySmith/caRecall/pull/28. Comments mainly around potentially reducing the number of API calls in the test as well as creating some user defined test functions as many of the tests are quite repetitive between the different functions in `recall_data.R`.
+- Created a new branch `update_CICD_workflow` and PR/merged in new workflow files to reduce the number of CICD actions performed https://github.com/WraySmith/caRecall/pull/32:
+    - Action workflow to run R-CMD-Check on 4 different OS but is only triggered by a using through the Github Action UI
+    - Action workflow to run R-CMD-Check on both push and pull but only on MacOS and which also runs the coverage test
+- Created a new branch `populate-metadata` and PR/merged in https://github.com/WraySmith/caRecall/pull/33. Includes:
+    - updated DESCRIPTION file
+    - minor updates on multiple metadata files
+    - added NEWS.md and cran-comments.md
+    - also added ability for user to pass in an API key directly to a function
+
 
 
