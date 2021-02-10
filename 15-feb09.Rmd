@@ -1,0 +1,17 @@
+# 2020-02-09 {#feb09}
+
+**General:**  
+Mitch working on documentation submitted a draft PR for discussion.
+
+Started looking at various tidying and supplemental functions in the `usetthis` package.
+
+**Nate Completed:**  
+
+- Mitch submitted a draft PR for documentation: https://github.com/WraySmith/caRecall/pull/34. Provided initial comments and discussed with Mitch what needed to be worked on for documentation.
+- Looked into additional `usetthis` functionality to supplement the package and repository:
+    - `use_spell_check()` provides spell checking for the package (creates a WORDSLIST file in /inst which is ok for CRAN), Mitch incorporated this within his current PR.
+    - `use_tidy_style()` will style the entire package - tested this out locally and it worked, to be used in next branch (note that there's github action templates that can incorporate this, not looking into this further currently)
+    - `use_pkgdown()` to create automatic website documentation for the package. See Section 3.2 of 'Github Actions with R' on how to set this up correctly with Github (https://ropenscilabs.github.io/actions_sandbox/websites-using-pkgdown-bookdown-and-blogdown.html#deploy-pkgdown).
+    - `build_manual()` builds the pdf documentation for review.
+
+
