@@ -1,22 +1,16 @@
-# 2020-02-08 {#feb08}
+# 2020-02-10 {#feb10}
 
-**General:**  
-Team met to discuss next steps on splitting up documentation. Was decided to split as follows:
+**General:**
 
-- Nate: Populate metadata files and start looking into ensuring that all files meet CRAN requirements.
-- Mitch: Populate all roxygen documentation.
-- Ryan: Create vignette and README
+- Ryan worked on the vignettes branch and submitted a draft PR for high-level review.
+- Finished documentation work.
 
 **Nate Completed:**  
 
-- Created a new branch `update_CICD_workflow` and PR/merged in new workflow files to reduce the number of CICD actions performed https://github.com/WraySmith/caRecall/pull/32:
-    - Action workflow to run R-CMD-Check on 4 different OS but is only triggered by a using through the Github Action UI
-    - Action workflow to run R-CMD-Check on both push and pull but only on MacOS and which also runs the coverage test
-- Created a new branch `populate-metadata` and PR/merged in https://github.com/WraySmith/caRecall/pull/33. Includes:
-    - updated DESCRIPTION file
-    - minor updates on multiple metadata files
-    - added NEWS.md and cran-comments.md
-    - also added ability for user to pass in an API key directly to a function
-
+- Provided review comments on the `vignette_dev` branch draft PR: https://github.com/WraySmith/caRecall/pull/35
+- Created a new branch `tidy-docsandtests` and PR/merged in https://github.com/WraySmith/caRecall/pull/36. The branch has the following:
+    - Tidied up the documentation for the package (should be completely done now).
+    - Ran `use_tidy_style()` on the code,
+    - Updated the github actions workflow so that the coverage tests is only triggered manually.
 
 
