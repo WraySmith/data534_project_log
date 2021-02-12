@@ -1,0 +1,18 @@
+# 2020-02-12 {#feb12}
+
+**General:**
+
+- The README branch `readme-vignette` was merged in. 
+- Meeting with Ryan and Mitch to discuss final steps for the package and split out tasks as follows:
+    - Nate: create pkgdown page, create function to skip tests, review all files for CRAN submission.
+    - Mitch: add error handling for user input, also add tests for the error handling.
+    - Ryan: improve code in `clean_vrd_api()` (potentially adding the stringr package).
+    
+The plan is to complete the above and then submit the package to CRAN.
+
+**Nate Completed:**  
+
+- Merged in the `tidy-docsandtests` branch: https://github.com/WraySmith/caRecall/pull/36.
+- Added pkgdown site for the package including a github action to auto-build the site on any push to the main branch.
+
+

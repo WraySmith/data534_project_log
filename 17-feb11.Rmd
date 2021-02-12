@@ -1,0 +1,17 @@
+# 2020-02-11 {#feb11}
+
+**General:**
+
+- Ryan completed his vignette branch and merged it in.
+- README was populated.
+
+**Nate Completed:**  
+
+- Provided additional review comments on the `vignette_dev` branch draft PR: https://github.com/WraySmith/caRecall/pull/35
+- Created a new branch `readme-vignettes` and submitted a PR: https://github.com/WraySmith/caRecall/pull/37. The branch has the following:
+    - Tidied up the vignette for the package (should be completely done now).
+    - Populated the README.
+    - Changed function outputs to be tibbles instead of data.frames.
+
+
+
