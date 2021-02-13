@@ -7,12 +7,18 @@
     - Nate: create pkgdown page, create function to skip tests, review all files for CRAN submission.
     - Mitch: add error handling for user input, also add tests for the error handling.
     - Ryan: improve code in `clean_vrd_api()` (potentially adding the stringr package).
-    
-The plan is to complete the above and then submit the package to CRAN.
+- Plan is to complete the above and then submit the package to CRAN.
+- Mitch provided PR for his updates: https://github.com/WraySmith/caRecall/pull/39
+- Ryan provided PR for his updates: https://github.com/WraySmith/caRecall/pull/40
 
 **Nate Completed:**  
 
 - Merged in the `tidy-docsandtests` branch: https://github.com/WraySmith/caRecall/pull/36.
-- Added pkgdown site for the package including a github action to auto-build the site on any push to the main branch.
+    - Also added pkgdown site for the package including a github action to auto-build the site on any push to the main branch.
+- Reviewed PR 39 and 40
+- Added skip-test function and various cleaning of the package getting ready for CRAN submission, several branches had PRs and merges as issues were found:
+    - https://github.com/WraySmith/caRecall/pull/41
+    - https://github.com/WraySmith/caRecall/pull/42
+    - One issue that came up was building the vignette without an API key
 
 

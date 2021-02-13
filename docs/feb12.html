@@ -24,7 +24,7 @@
 <meta name="author" content="Nathan Smith" />
 
 
-<meta name="date" content="2021-02-12" />
+<meta name="date" content="2021-02-13" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +32,7 @@
   
   
 <link rel="prev" href="feb11.html"/>
-
+<link rel="next" href="feb13.html"/>
 <script src="libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -89,6 +89,7 @@
 <li class="chapter" data-level="17" data-path="feb10.html"><a href="feb10.html"><i class="fa fa-check"></i><b>17</b> 2020-02-10</a></li>
 <li class="chapter" data-level="18" data-path="feb11.html"><a href="feb11.html"><i class="fa fa-check"></i><b>18</b> 2020-02-11</a></li>
 <li class="chapter" data-level="19" data-path="feb12.html"><a href="feb12.html"><i class="fa fa-check"></i><b>19</b> 2020-02-12</a></li>
+<li class="chapter" data-level="20" data-path="feb13.html"><a href="feb13.html"><i class="fa fa-check"></i><b>20</b> 2020-02-13</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -120,12 +121,23 @@
 <li>Mitch: add error handling for user input, also add tests for the error handling.</li>
 <li>Ryan: improve code in <code>clean_vrd_api()</code> (potentially adding the stringr package).</li>
 </ul></li>
+<li>Plan is to complete the above and then submit the package to CRAN.</li>
+<li>Mitch provided PR for his updates: <a href="https://github.com/WraySmith/caRecall/pull/39" class="uri">https://github.com/WraySmith/caRecall/pull/39</a></li>
+<li>Ryan provided PR for his updates: <a href="https://github.com/WraySmith/caRecall/pull/40" class="uri">https://github.com/WraySmith/caRecall/pull/40</a></li>
 </ul>
-<p>The plan is to complete the above and then submit the package to CRAN.</p>
 <p><strong>Nate Completed:</strong></p>
 <ul>
-<li>Merged in the <code>tidy-docsandtests</code> branch: <a href="https://github.com/WraySmith/caRecall/pull/36" class="uri">https://github.com/WraySmith/caRecall/pull/36</a>.</li>
-<li>Added pkgdown site for the package including a github action to auto-build the site on any push to the main branch.</li>
+<li>Merged in the <code>tidy-docsandtests</code> branch: <a href="https://github.com/WraySmith/caRecall/pull/36" class="uri">https://github.com/WraySmith/caRecall/pull/36</a>.
+<ul>
+<li>Also added pkgdown site for the package including a github action to auto-build the site on any push to the main branch.</li>
+</ul></li>
+<li>Reviewed PR 39 and 40</li>
+<li>Added skip-test function and various cleaning of the package getting ready for CRAN submission, several branches had PRs and merges as issues were found:
+<ul>
+<li><a href="https://github.com/WraySmith/caRecall/pull/41" class="uri">https://github.com/WraySmith/caRecall/pull/41</a></li>
+<li><a href="https://github.com/WraySmith/caRecall/pull/42" class="uri">https://github.com/WraySmith/caRecall/pull/42</a></li>
+<li>One issue that came up was building the vignette without an API key</li>
+</ul></li>
 </ul>
 
 </div>
@@ -134,8 +146,8 @@
           </div>
         </div>
       </div>
-<a href="feb11.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="feb11.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="feb13.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

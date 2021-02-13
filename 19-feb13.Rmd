@@ -1,0 +1,17 @@
+# 2020-02-13 {#feb13}
+
+**General:**
+
+- Final updates for submission to CRAN.
+
+**Nate Completed:**  
+
+- Ran `rhub_check()` the previous evening and it did not like the spelling of 'searchable'; therefore, update the package to remove this word.
+- Additionally, it was found that the vignette rendering method worked on yesterday made it so that the pkgdown site did not display output; therefore, had to change the vignette rendering method again. The solution was to precompile the .Rmd file so that it would work both on CRAN and on pkgdown. References for this are here:
+    - https://github.com/ropensci/eia/tree/master/vignettes
+    - https://ropensci.org/blog/2019/12/08/precompute-vignettes/
+- PR and merge in the following: https://github.com/WraySmith/caRecall/pull/43
+- Note that over the minor changes that occurred, there were several minor commits directly to main (such as adding an additional line to `.buildignore`) that came up during the devtools CRAN checks.
+
+**Submitted to CRAN successfully** now just wait for results of approval process. 
+
