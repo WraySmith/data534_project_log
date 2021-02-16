@@ -1,0 +1,10 @@
+# 2020-02-16 {#feb16}
+
+**General:**
+
+- Package approved/published on CRAN!
+
+**Nate Completed:**  
+
+- Added minor comments to the README for the package now being on CRAN and updated the development version number to 0.1.0.9000.
+
